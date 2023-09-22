@@ -8,7 +8,7 @@ function App() {
   return (
 <Router>
       <div className="Container">
-        <Menu/>
+      <Menu/>
         <Routes>
           <Route path="/login" element={<Login />} />
         </Routes>

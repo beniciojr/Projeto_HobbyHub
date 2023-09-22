@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Inter&display=swap');
+
+.container0 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container1 {
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+    color: white;
+    display: flex;
+  }
+
+.Logo_h2 {
+    padding-top: 10%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.h2 {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    color: white;
+    font-size: 4vh;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Lilita One', cursive;
+}
+
+.Logo {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 3%; 
+}
+
+.h1 {
+    color: white;
+}
+
+.container2 {
+    max-width: 500px; 
+    width: 90%; 
+    height: auto; 
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoC2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30%;
+}
+
+.h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 6vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+    font-family: 'Lilita One', cursive;
+}
+
+.p {
+    color: #FFF;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 3%;
+    font-family: 'Inter', sans-serif;
+}
+
+.input {
+    width: 120%;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: none;
+    font-size: 2vh;
+}
+
+.input:hover {
+    background-color: #dbdbdb;
+    transition: 0.5s;
+}
+
+.input:focus {
+    outline: none;
+    background-color: #dbdbdb;
+    
+}
+
+.Esqueceu {
+    color: white;
+    display: flex;
+    justify-content: start;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
+    margin-top: 2%;
+}
+
+.button {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button1 {
+    margin-top: 3%;
+    background-color: #8A01FF;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 280%;
+    height: 45px;
+    justify-content: center;
+    color: #FFF;
+    font-family: Lilita One;
+    font-size: 2.5vh;
+    border: #6900c5 1px solid;
+}
+
+.button1:hover {
+    background-color: #6900c5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container1,
+    .container2 {
+      width: 100%; 
+      max-width: none; 
+      height: auto; 
+    }
+    .h2,
+    .h1,
+    .p,
+    .input,
+    .button1 {
+    font-size: 4vw; 
+    }
+}

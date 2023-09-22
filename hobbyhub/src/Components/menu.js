@@ -9,11 +9,11 @@ function Menu() {
   };
 
   return (
-    <div>
-      <button onClick={toggleMenu}>Menu</button>
+    <div className='container'>
+      <button className='button' onClick={toggleMenu}>Menu</button>
       {menuOpen && (
         <ul>
-          <li><Link to="Login">Login</Link></li>
+          <li className='Login'><Link to="Login">Login</Link></li>
         </ul>
       )}
     </div>

@@ -1,10 +1,16 @@
-button {
+.container {
+  margin: 10px;
+}
+.button {
     background-color: #3498db;
     color: white;
     border: none;
     padding: 10px 20px;
-    cursor: pointer;
   }
+
+.button:hover {
+  color: blue;
+}
   
 
 .ul {
@@ -39,3 +45,6 @@ button {
     border-radius: 4px;
   }
   
+  .Login {
+    color: white;
+  }
