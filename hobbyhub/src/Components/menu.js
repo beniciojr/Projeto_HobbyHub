@@ -14,6 +14,7 @@ function Menu() {
       {menuOpen && (
         <ul>
           <li className='Login'><Link to="Login">Login</Link></li>
+          <li className='Cadastro'><Link to="Cadastro">Cadastro</Link></li>
         </ul>
       )}
     </div>

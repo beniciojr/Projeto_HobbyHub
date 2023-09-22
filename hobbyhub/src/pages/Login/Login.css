@@ -87,12 +87,13 @@
 }
 
 .input {
-    width: 120%;
+    width: 140%;
     height: 45px;
     flex-shrink: 0;
     border-radius: 15px;
     border: none;
     font-size: 2vh;
+    margin-left: -4%;
 }
 
 .input:hover {
@@ -103,7 +104,6 @@
 .input:focus {
     outline: none;
     background-color: #dbdbdb;
-    
 }
 
 .Esqueceu {
