@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Inter&display=swap');
+
+.Cadcontainer0 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Cadcontainer1 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    max-width: 400px;
+    width: 90%;
+    height: 700px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+
+.Cadcontainer1h1 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Cadcontainer1p {
+    margin: 5%;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Cadcontainer2 {
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+    height: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Cadcontainer2h1 {
+    color: #FFF;
+    font-family: Lilita One;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Cadcontainer2p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 6%;
+}
+
+.inputCad {
+    width: 450px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-bottom: 2%;
+}
+
+.inputCad:hover {
+    background-color: #dbdbdb;
+    transition: 0.5s;
+}
+
+.inputCad:focus {
+    outline: none;
+    background-color: #dbdbdb;
+}
+
+.Cadbutton1 {
+    margin-top: 6%;
+    width: 324px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #8A01FF;
+    color: #FFF;
+    font-family: Lilita One;
+    font-size: 28px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.Cadbutton1:hover {
+    background-color: #6900c5;
+    transition: 0.5s;
+    cursor: pointer;
+}
