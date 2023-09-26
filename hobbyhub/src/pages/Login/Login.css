@@ -82,16 +82,18 @@
     line-height: normal;
     margin-bottom: 3%;
     font-family: 'Inter', sans-serif;
+    padding: 3%;
 }
 
 .input {
     width: 140%;
-    height: 45px;
+    height: 35px;
     flex-shrink: 0;
     border-radius: 15px;
     border: none;
     font-size: 2vh;
     margin-left: -4%;
+    padding: 10px;
 }
 
 .input:hover {
@@ -110,7 +112,7 @@
     justify-content: start;
     font-family: 'Asap Condensed', sans-serif;
     font-family: 'Inter', sans-serif;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .button {

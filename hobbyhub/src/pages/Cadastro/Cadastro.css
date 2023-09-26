@@ -43,7 +43,7 @@
     border-radius: 15px;
     max-width: 600px;
     width: 90%;
-    height: 700px;
+    max-height: 700px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -67,27 +67,33 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
 }
 
 .inputCad {
-    width: 450px;
-    height: 45px;
+    width: 430px;
+    height: 30px;
     flex-shrink: 0;
     border-radius: 15px;
     border: 1px solid #000;
     background: #FFF;
     margin-bottom: 2%;
+    padding: 15px;
 }
 
-.inputCad:hover {
-    background-color: #dbdbdb;
-    transition: 0.5s;
+.inputCad::placeholder {
+    font-size: 16px;
+}
+
+.inputCad:hover::placeholder {
+    background-color: #ffffff;
+    transition: all 0.5s ease;
+    font-size: 10px;
+    transform: translateY(-10px);
 }
 
 .inputCad:focus {
     outline: none;
-    background-color: #dbdbdb;
 }
 
 .Cadbutton1 {
