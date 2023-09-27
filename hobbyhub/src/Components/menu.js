@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {Link} from "react-router-dom";
+import menu from "../Components/menu.css";
 
 function Menu() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,10 +10,10 @@ function Menu() {
   };
 
   return (
-    <div className='container'>
-      <button className='button' onClick={toggleMenu}>Menu</button>
+    <div className='menu_container'>
+      <button className='menu_button' onClick={toggleMenu}>Menu</button>
       {menuOpen && (
-        <ul>
+        <ul className='menu_ul'>
           <li className='Login'><Link to="Login">Login</Link></li>
           <li className='Cadastro'><Link to="Cadastro">Cadastro</Link></li>
         </ul>
