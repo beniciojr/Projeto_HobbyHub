@@ -44,4 +44,4 @@ const Cadastro = () => {
   )
 }
 
-export default Cadastro; // Exporta o componente Cadastro para uso em outros lugares
+export default Cadastro; 
