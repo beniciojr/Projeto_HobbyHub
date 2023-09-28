@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Inter&display=swap');
 
-.container0 {
+.main_login {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.container1 {
+.left_login {
     max-width: 500px;
     width: 90%;
     height: auto;
@@ -20,7 +20,7 @@
     align-items: center;
   }
 
-.Logo_h2 {
+.card_left {
     padding-top: 10%;
     width: 100%;
     height: auto;
@@ -29,7 +29,7 @@
     align-content: center;
 }
 
-.h2 {
+.card_left h2 {
     justify-content: center;
     display: flex;
     width: 100vw;
@@ -40,13 +40,13 @@
     font-family: 'Lilita One', cursive;
 }
 
-.Logo {
+.card_left img {
     max-width: 100%; 
     height: auto; 
     margin-bottom: 3%; 
 }
 
-.container2 {
+.right_login {
     max-width: 500px; 
     width: 90%; 
     height: auto; 
@@ -55,7 +55,7 @@
     justify-content: center;
 }
 
-.conteudoC2 {
+.card_right {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -63,7 +63,7 @@
     margin-bottom: 30%;
 }
 
-.h1 {
+.card_right h1 {
     text-align: center;
     color: #FFF;
     font-size: 6vh;
@@ -74,7 +74,7 @@
     font-family: 'Lilita One', cursive;
 }
 
-.p {
+.card_right label {
     color: #ffffff;
     font-size: 2vh;
     font-style: normal;
@@ -86,7 +86,7 @@
     cursor: auto;
 }
 
-.input {
+.login_input {
     width: 140%;
     height: 35px;
     flex-shrink: 0;
@@ -97,17 +97,17 @@
     padding: 10px;
 }
 
-.input:hover {
+.login_input:hover {
     background-color: #dbdbdb;
     transition: 0.5s;
 }
 
-.input:focus {
+.login_input:focus {
     outline: none;
     background-color: #dbdbdb;
 }
 
-.Esqueceu {
+.card_right a {
     color: white;
     display: flex;
     justify-content: start;
@@ -124,7 +124,7 @@
     align-items: center;
 }
 
-.button1 {
+.btn_login {
     margin-top: 3%;
     background-color: #8A01FF;
     border: none;
@@ -136,27 +136,10 @@
     color: #FFF;
     font-family: Lilita One;
     font-size: 2.5vh;
-    border: #6900c5 1px solid;
 }
 
-.button1:hover {
+.btn_login:hover {
     background-color: #6900c5;
     transition: 0.5s;
     cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .container1,
-    .container2 {
-        width: 100%; 
-      max-width: none; 
-      height: auto; 
-    }
-    .h2,
-    .h1,
-    .p,
-    .input,
-    .button1 {
-    font-size: 4vw; 
-    }
 }
