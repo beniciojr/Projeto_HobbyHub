@@ -1,20 +1,60 @@
+@font-face{
+  font-family: "menufont";
+  src: url("../Fonts/LilitaOne-Regular.ttf");
+}
+
 .menu_container {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
   padding: 0;
   margin: 0;
-}
 
+}
 .menu_button {
-    border: none;
-    padding: 0.3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10%;
+  border: none;
+  padding: 0.3%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+ 
+}
+.menu_button.active > .lines_btn_menu.left{
+  width: 60%;
+  transform: rotateZ(50deg) translate(-4px,3px);
+
+}
+.menu_button.active > .lines_btn_menu.right{
+  width: 60%;
+  transform: rotateZ(-50deg) translate( -1px, 10px);
+
 }
 
-.menu_button:hover {
-  color: rgb(0, 0, 255);
-  cursor: pointer;
+.lines_btn_menu{
+  width: 90%;
+  height: 3px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 20px;
 }
-  
+#btn_menu_text{
+  font-family: "menufont";
+  color: #d8ff7e;
+
+}
+
+.menu_button.active > #btn_menu_text{
+  font-family: "menufont";
+  color: #d8ff7e;
+  margin-top:2px;
+}
+
+
 
 .menu_ul {
     width: 5vw;

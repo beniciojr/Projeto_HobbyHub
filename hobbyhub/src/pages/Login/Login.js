@@ -4,7 +4,7 @@ import logoprojeto from '../../assets/logoprojeto.png';
 
 const Login = () => { 
   return (
-    <div className='main_login'> {/* Inicia um container principal com classe 'container0' */}
+    <div className='main_login'> {/* Inicia um container principal com classe 'main_login' */}
       <div className='left_login'> {/* Inicia um subcontainer com classe 'left_login' */}
         <div className='card_left'>
           <h2>Bem-vindo!</h2> {/* Título "Bem-vindo!" com classe 'h2' */}

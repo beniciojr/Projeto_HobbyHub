@@ -9,7 +9,7 @@ function App() {
   return (
 <Router>
       <div className="Container">
-      <Menu/>
+      <Menu className="menu_button_header"/>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
