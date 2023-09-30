@@ -20,6 +20,7 @@ function Menu() {
         <ul className='menu_ul'>
           <li className='Login'><Link to="Login">Login</Link></li>
           <li className='Cadastro'><Link to="Cadastro">Cadastro</Link></li>
+          <li className='Inicio'><Link to="Inicio">Início</Link></li>
         </ul>
       )}
     </div>

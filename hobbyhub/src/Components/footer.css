@@ -1,0 +1,38 @@
+.footer_container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_content {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer_content ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+
+.footer_content ul li {
+    list-style-type: none;
+}
+
+.footer_content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.svg_content {
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}

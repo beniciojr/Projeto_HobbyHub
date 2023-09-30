@@ -8,7 +8,7 @@ const Cadastro = () => {
       <div className='left_cadastro'> {/* Inicia um subcontainer com classe 'Cadcontainer1' */}
         <h1>Bem-vindo!</h1> {/* Título com classe 'Cadcontainer1h1' */}
         <p>Comece criando um perfil e explore a ampla gama de hobbies e eventos.</p> {/* Parágrafo com classe 'Cadcontainer1p' */}
-        <img src={logoprojeto} alt="Logo" className="Logo" /> {/* Imagem do logotipo com classe 'Logo' */}
+        <img src={logoprojeto} alt="Logo"  /> {/* Imagem do logotipo com classe 'Logo' */}
       </div>
       <div className='right_cadastro'> {/* Inicia outro subcontainer com classe 'Cadcontainer2' */}
         <div className='card_cadastro'>
