@@ -9,6 +9,39 @@
     box-sizing: border-box;
 }
 
+#btn_login {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+}
+
+#btn_login a {
+    text-decoration: none;
+}
+
+#btn_login button {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    align-items: end;
+    background: transparent;
+    border: none;
+}
+
+#btn_login button p {
+    display: flex;
+    width: 100%;
+    color: #6700BF;
+    margin: 0;
+    font-family: Lilita One;
+    font-size: 1.1em;
+    justify-content: center;
+}
+
 .container_logo {
     width: 100%;
     height: 100%;

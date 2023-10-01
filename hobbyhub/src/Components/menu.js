@@ -10,7 +10,7 @@ function Menu() {
   };
 
   return (
-    <div className='menu_container'>
+    <div className={`sidebar ${menuOpen ? "active" : ""}`}>
       <button className={`menu_button ${menuOpen ? "active" : "inactive"}`} onClick={toggleMenu}>
         <div className="lines_btn_menu right"></div>
         <div className="lines_btn_menu left"></div>
@@ -18,9 +18,8 @@ function Menu() {
       </button>
       {menuOpen && (
         <ul className='menu_ul'>
-          <li className='Login'><Link to="Login">Login</Link></li>
+          <li className='Inicio'><Link to="/">Início</Link></li>
           <li className='Cadastro'><Link to="Cadastro">Cadastro</Link></li>
-          <li className='Inicio'><Link to="Inicio">Início</Link></li>
         </ul>
       )}
     </div>

@@ -17,9 +17,9 @@ const Footer = () => {
           </svg>
         </div>
         <ul>
-          <li><a href='#'>Home</a></li>
-          <li><a href='#'>Contato</a></li>
-          <li><a href='#'>Sobre</a></li>
+          <li>Home</li> {/*fazer um button e colocar o link*/}
+          <li>Contato</li>
+          <li>Sobre</li>
         </ul>
         <p>&copy; {new Date().getFullYear()} HobbyHub</p>
       </div>
